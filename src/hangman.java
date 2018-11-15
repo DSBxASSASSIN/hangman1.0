@@ -16,7 +16,7 @@ public class hangman {
         boolean active;
 
 
-        //----------------------------------------------------
+        
         String[] verlaten = new String[]{"exit"};
         String[] stringLijst = new String[]{"kill", "trump", "all", "day", "long", "depresie", "is", "leuk"};
         String input = "";
@@ -32,7 +32,7 @@ public class hangman {
             buffer.append("_ ");
         }
         System.out.println(buffer.toString());
-        //------------------------------------------------------
+       
         active = false;
 
         System.out.println("if you whant to stop enter exit");
